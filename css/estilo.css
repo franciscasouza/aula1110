@@ -60,6 +60,27 @@
     border: 1px solid white;
 }
 
+
+.one2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #e03434;
+    border: 1px solid white;
+}
+.two2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #e03434;
+    border: 1px solid white;
+}
 .btn{
    
     color: rgb(15, 15, 15);
@@ -68,4 +89,27 @@
     cursor: pointer;
     margin-top: 20px;
     padding: 3px 3px;
+}
+
+.fichas{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;    
+
+}
+
+.fichas1{
+    font-size: 0.5rem;
+    padding-bottom: 10px;
+    
+}
+
+.fichas2{
+    font-size: 0.5rem;
+    
+   
+}
+
+span{
+    color: greenyellow;
 }
