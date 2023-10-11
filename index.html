@@ -10,21 +10,27 @@
   <body>
     <div class="container">
       <h1>Jogo +</h1>
+      <div class="fichas">
+        <div class="fichas1">Fichas Jogador <span id="jgone">10</span></div>
+        <div class="fichas2">Fichas PC <span id="pctow">10</span></div>
+      </div>
+     
       <div class="tabuleiro">
         <div class="jogador1">
-          <div class="one">13</div>
-          <div class="two">14</div>
+          <div class="one" id="one">00</div>
+          <div class="two" id="two">00</div>
         </div>
         <div class="jogador2">
-          <div class="one">15</div>
-          <div class="two">16</div>
+          <div class="one2" id="one2">00</div>
+          <div class="two2" id="two2">00</div>
         </div>
       </div>
       <div class="btn">
-        <button type="submit" class="btn btn.sucesflex--grow-0">Jogar</button>
-        <button type="submit" class="btn btn.sucesflex--grow-0">Passar</button>
+        <button type="submit" class="btn btn.sucesflex--grow-0" ondblclick="Iniciar()" id="iniciar">Iniciar</button>
+        <button type="submit" class="btn btn.sucesflex--grow-0" onclick="Jogar()" id="jogar">Jogar</button>
+        <button type="submit" class="btn btn.sucesflex--grow-0" onclick="Passar()" id="passar">Passar</button>
       </div>
-
     </div>
+    <script src="/js/iniciar.js"></script>
   </body>
 </html>
